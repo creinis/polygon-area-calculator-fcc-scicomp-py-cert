@@ -3,4 +3,7 @@ class Rectangle:
         self.width = width
         self.height = height
     
+    def set_width(self, width):
+        self.width = width  
+    
     
