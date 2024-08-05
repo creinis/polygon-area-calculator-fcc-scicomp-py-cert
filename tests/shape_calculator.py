@@ -27,7 +27,9 @@ class Rectangle:
     def get_amount_inside(self, shape):
         return int(self.get_area() / shape.get_area())
     
-    
+    def __str__(self):
+        return "Rectangle(width=" + str(self.width) + ", height=" + str(
+        self.height) + ")"
     
     
     
