@@ -32,7 +32,10 @@ class Rectangle:
         self.height) + ")"
     
 class Square(Rectangle):
-    pass
+    
+    def __init__(self, side):
+        self.width = side
+        self.height = side
     
     
     
