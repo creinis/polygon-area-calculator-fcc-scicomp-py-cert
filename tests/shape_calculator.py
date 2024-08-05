@@ -31,7 +31,7 @@ class Rectangle:
         return "Rectangle(width=" + str(self.width) + ", height=" + str(
         self.height) + ")"
     
-class Square:
+class Square(Rectangle):
     pass
     
     
