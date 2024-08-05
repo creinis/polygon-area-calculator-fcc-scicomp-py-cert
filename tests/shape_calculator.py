@@ -24,7 +24,8 @@ class Rectangle:
         else:
           return (("*" * self.width) + "\n") * self.height
     
-    
+    def get_amount_inside(self, shape):
+        return int(self.get_area() / shape.get_area())
     
     
     
