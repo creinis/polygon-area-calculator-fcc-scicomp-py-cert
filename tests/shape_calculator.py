@@ -44,7 +44,13 @@ class Square(Rectangle):
     def __str__(self):
         return "Square(side=" + str(self.width) + ")"
     
-    
+    def set_width(self, width):
+        self.width = width
+        self.height = width
+
+    def set_height(self, height):
+        self.width = height
+        self.height = height
     
     
     
